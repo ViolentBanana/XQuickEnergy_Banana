@@ -8,5 +8,8 @@
 进入界面快速收取，非自动收取  
 更多详情请见[Wiki](../../wiki)  
 
+原地址：[https://github.com/pansong291/XQuickEnergy](https://github.com/pansong291/XQuickEnergy)
+感谢(@pansong291)
+
 原地址：[https://github.com/yongjun925/autocollectenergy](https://github.com/yongjun925/autocollectenergy)  
 感谢编码美丽的四哥(@尼古拉斯·赵四)

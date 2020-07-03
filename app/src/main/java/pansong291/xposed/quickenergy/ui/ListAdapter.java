@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import java.util.List;
-import pansong291.xposed.quickenergy.R;
+import banana.xposed.quickenergy.R;
 
 public class ListAdapter extends BaseAdapter
 {
