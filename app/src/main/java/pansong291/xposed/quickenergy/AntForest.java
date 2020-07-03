@@ -12,14 +12,6 @@ import pansong291.xposed.quickenergy.util.Log;
 import pansong291.xposed.quickenergy.util.RandomUtils;
 import pansong291.xposed.quickenergy.util.Statistics;
 
-
-/**
- * 项目名称： KeepYoga
- * 项目包名： pansong291.xposed.quickenergy
- * 哇创建人： CHEN
- * 创建时间： 2020/7/3 2:20 PM
- * 类描述哦： 蚂蚁森林收取能量
- */
 public class AntForest {
     private static final String TAG = AntForest.class.getCanonicalName();
     private static String selfId;

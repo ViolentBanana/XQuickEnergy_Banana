@@ -51,7 +51,7 @@ public class FriendIdMap
   if(hasChanged)
   {
    StringBuilder sb = new StringBuilder();
-   Set<Map.Entry<String,String>> idSet = getIdMap().entrySet();
+   Set<Map.Entry> idSet = getIdMap().entrySet();
    for(Map.Entry entry: idSet)
    {
     sb.append(entry.getKey());
@@ -68,7 +68,7 @@ public class FriendIdMap
  {
   if(selfId == null)
   {
-   Set<Map.Entry<String,String>> idSet = getIdMap().entrySet();
+   Set<Map.Entry> idSet = getIdMap().entrySet();
    for(Map.Entry entry: idSet)
     if(!entry.getValue().toString().contains("*"))
     {
@@ -98,7 +98,7 @@ public class FriendIdMap
  public static String[] getUnknownIds()
  {
   List<String> idList = new ArrayList<String>();
-  Set<Map.Entry<String,String>> idSet = getIdMap().entrySet();
+  Set<Map.Entry> idSet = getIdMap().entrySet();
   for(Map.Entry entry: idSet)
    if(entry.getValue().toString().contains("(*)"))
     idList.add(entry.getKey().toString());

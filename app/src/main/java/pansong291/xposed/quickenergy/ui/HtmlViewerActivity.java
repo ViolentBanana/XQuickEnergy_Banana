@@ -11,7 +11,8 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-import banana.xposed.quickenergy.R;
+
+import pansong291.xposed.quickenergy.R;
 
 public class HtmlViewerActivity extends Activity
 {

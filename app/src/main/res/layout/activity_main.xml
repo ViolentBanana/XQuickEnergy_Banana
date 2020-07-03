@@ -25,9 +25,9 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		style="?android:attr/buttonBarButtonStyle"
-		android:text="Forest log"
 		android:textAllCaps="false"
 		android:onClick="onClick"
+		android:text="@string/forest_log"
 		android:background="@drawable/button"
 		android:id="@+id/btn_forest_log"/>
 
@@ -35,7 +35,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		style="?android:attr/buttonBarButtonStyle"
-		android:text="Farm log"
+		android:text="@string/farm_log"
 		android:textAllCaps="false"
 		android:onClick="onClick"
 		android:background="@drawable/button"
@@ -45,7 +45,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		style="?android:attr/buttonBarButtonStyle"
-		android:text="Other log"
+		android:text="@string/other_log"
 		android:textAllCaps="false"
 		android:onClick="onClick"
 		android:background="@drawable/button"

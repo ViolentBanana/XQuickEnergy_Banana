@@ -44,7 +44,7 @@ public class CooperationIdMap {
     public static boolean saveIdMap() {
         if (hasChanged) {
             StringBuilder sb = new StringBuilder();
-            Set<Map.Entry<String,String>> idSet = getIdMap().entrySet();
+            Set<Map.Entry> idSet = getIdMap().entrySet();
             for (Map.Entry entry : idSet) {
                 sb.append(entry.getKey());
                 sb.append(':');
@@ -64,7 +64,7 @@ public class CooperationIdMap {
         return id;
     }
 
-    public static Map<String,String> getIdMap() {
+    public static Map getIdMap() {
         if (idMap == null || shouldReload) {
             shouldReload = false;
             idMap = new TreeMap<>();

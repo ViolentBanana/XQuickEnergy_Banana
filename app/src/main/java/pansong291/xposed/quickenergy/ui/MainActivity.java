@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import banana.xposed.quickenergy.R;
+import pansong291.xposed.quickenergy.R;
 import pansong291.xposed.quickenergy.util.FileUtils;
 import pansong291.xposed.quickenergy.util.RandomUtils;
 import pansong291.xposed.quickenergy.util.Statistics;
@@ -73,12 +73,12 @@ public class MainActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         int state = getPackageManager()
                 .getComponentEnabledSetting(new ComponentName(this, getClass().getCanonicalName() + "Alias"));
-        menu.add(0, 1, 0, "Hide the application icon")
+        menu.add(0, 1, 0, getString(R.string.hide_the_app_icon))
                 .setCheckable(true)
                 .setChecked(state > PackageManager.COMPONENT_ENABLED_STATE_ENABLED);
-        menu.add(0, 2, 0, "Export the statistic file");
-        menu.add(0, 3, 0, "Import the statistic file");
-        menu.add(0, 4, 0, "Settings");
+        menu.add(0, 2, 0, getString(R.string.export_statistic_file));
+        menu.add(0, 3, 0, getString(R.string.import_statistic_file));
+        menu.add(0, 4, 0, getString(R.string.settings));
         return super.onCreateOptionsMenu(menu);
     }
 
